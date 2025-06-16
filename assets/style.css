@@ -8645,7 +8645,10 @@ home 8 style
 .tc-about-style8 {
   background-image: url(../assets/img/banner.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
+  width: 100%;
 }
 .tc-about-style8::after {
   position: absolute;
@@ -9101,7 +9104,16 @@ home 8 style
   position: relative;
   background-color: #262929;
   color: #fff;
+  background-image: url(/assets/img/contact_us.jpg);
+  background-size: cover; /* Ensures the image covers the whole area */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents tiling */
 }
+
+.tc-team-style8 {
+  min-height: 100vh; /* or whatever height you need */
+}
+
 .tc-team-style8 .member-colmn {
   margin: auto;
 }
@@ -9250,6 +9262,7 @@ home 8 style
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 .tc-contact-style8 h1 {
   font-size: calc(4vw + 30px);
   line-height: 1.2;
