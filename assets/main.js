@@ -687,7 +687,7 @@ $(function () {
 });
 
 $(".accordion .accordion-item").on("click", function () {
-  debugger;
+
   $(this).addClass("active").siblings().removeClass("active");
 });
 
