@@ -3720,10 +3720,10 @@ home 3 style
 .tc-partners-style3 .logos .logo-card:hover {
   border-color: var(--color-yellow1);
 }
-.tc-partners-style3 .logos .logo-card .logo {
+/* .tc-partners-style3 .logos .logo-card .logo {
   max-width: 135px;
   max-height: 45px;
-}
+} */
 .tc-partners-style3 .logos .logo-card .num {
   position: absolute;
   top: 20px;
@@ -9034,10 +9034,10 @@ home 8 style
   transform: rotate(45deg);
   color: #fff;
 }
-.tc-partners-style8 .logos .logo-card .logo {
+/* .tc-partners-style8 .logos .logo-card .logo {
   max-width: 135px;
   max-height: 40px;
-}
+} */
 .tc-partners-style8 .logos .logo-card .num {
   position: absolute;
   top: 20px;
