@@ -8657,7 +8657,7 @@ home 8 style
       font-size: 1.2rem;
     }
     p {
-      color: #666;
+      color: #0d1a1c;
       font-size: 1rem;
       margin-bottom: 0;
     }
@@ -9135,7 +9135,7 @@ home 8 style
   position: relative;
   background-color: #262929;
   color: #fff;
-  background-image: url(/assets/img/contact.jpg);
+/*   background-image: url(/assets/img/contact.jpg); */
   background-size: cover; /* Ensures the image covers the whole area */
   background-position: center; /* Keeps the image centered */
   background-repeat: no-repeat; /* Prevents tiling */
