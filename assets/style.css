@@ -8633,6 +8633,37 @@ home 8 style
   visibility: visible;
 }
 
+.tc-features-grid {
+  .feature-card {
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    border: 1px solid #eee;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-left: 5px solid #ffb347; /* Accent color */
+
+    &:hover {
+      box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+      transform: translateY(-8px) scale(1.03);
+      background: linear-gradient(120deg, #fff 80%, #f9f6f2 100%);
+      border-left: 5px solid #ff8800;
+    }
+
+    h5 {
+      color: #0d1a1c;
+      letter-spacing: 0.5px;
+      font-size: 1.2rem;
+    }
+    p {
+      color: #666;
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
   .side_menu.style-1 {
     width: 100%;
@@ -9104,7 +9135,7 @@ home 8 style
   position: relative;
   background-color: #262929;
   color: #fff;
-  background-image: url(/assets/img/contact_us.jpg);
+  background-image: url(/assets/img/contact.jpg);
   background-size: cover; /* Ensures the image covers the whole area */
   background-position: center; /* Keeps the image centered */
   background-repeat: no-repeat; /* Prevents tiling */
