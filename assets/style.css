@@ -8170,7 +8170,7 @@ home 8 style
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 0;
   opacity: 0;
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
@@ -8900,7 +8900,12 @@ home 8 style
 /* --------------- clients style8 --------------- */
 .tc-clients-style8 {
   position: relative;
-  background-color: #f1eee9;
+  background-color: #fff;
+}
+.max-w-700 {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
 }
 .tc-clients-style8 .rotate-box {
   position: relative;
